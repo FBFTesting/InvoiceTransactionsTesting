@@ -114,7 +114,7 @@
         </ui:Target>
       </ui:Click.Target>
     </ui:Click>
-    <Assign sap:VirtualizedContainerService.HintSize="1024,62" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign DisplayName="Assign Distributions Index" sap:VirtualizedContainerService.HintSize="1024,62" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:Int32">[intDistributionsIndex]</OutArgument>
       </Assign.To>

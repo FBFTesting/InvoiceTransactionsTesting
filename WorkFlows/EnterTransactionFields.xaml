@@ -2,7 +2,7 @@
   <x:Members>
     <x:Property Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>666,3850</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1150,2401.33333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="32">
@@ -72,13 +72,13 @@
   <Sequence sap2010:Annotation.AnnotationText="1. Enter Transaction Fields in Transactions Window" DisplayName="EnterTransactionFields" sap:VirtualizedContainerService.HintSize="400.666666666667,2336.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="strShipToName" />
-      <Variable x:TypeArguments="x:String" Default="DM Manual" Name="strSource" />
-      <Variable x:TypeArguments="x:String" Default="Invoice" Name="strClass" />
-      <Variable x:TypeArguments="x:String" Default="DM Manual" Name="strType" />
-      <Variable x:TypeArguments="x:String" Default="DOL_LE" Name="strLegalEntity" />
+      <Variable x:TypeArguments="x:String" Name="strSource" />
+      <Variable x:TypeArguments="x:String" Name="strClass" />
+      <Variable x:TypeArguments="x:String" Name="strType" />
+      <Variable x:TypeArguments="x:String" Name="strLegalEntity" />
       <Variable x:TypeArguments="x:String" Name="strReference" />
-      <Variable x:TypeArguments="x:String" Default="20-APR-2020" Name="strDate" />
-      <Variable x:TypeArguments="x:String" Default="20-APR-2020" Name="strGLDate" />
+      <Variable x:TypeArguments="x:String" Name="strDate" />
+      <Variable x:TypeArguments="x:String" Name="strGLDate" />
       <Variable x:TypeArguments="x:String" Name="strCurrency" />
       <Variable x:TypeArguments="x:String" Name="strBillToName" />
       <Variable x:TypeArguments="x:String" Name="strBillToNumber" />
